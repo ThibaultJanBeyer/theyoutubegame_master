@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const WebSocketServer = require('ws').Server;
 const url = require('url');
+const game = require('./Game');
 const wss = new WebSocketServer( {
   port: 40510
 } );
